@@ -17,6 +17,34 @@
         "lastname" : "Johnson",
         "age" : 23,
         "image": "nina.png"
+    },
+
+    {
+        "firstname" : "Ana",
+        "lastname" : "Bustos",
+        "age" : 27,
+        "image" : "olivia.png"
+    },
+
+    {
+        "firstname" : "Giulia",
+        "lastname" : "Ivan",
+        "age" : 27,
+        "image" : "olivia.png"
+    },
+
+    {
+        "firstname" : "Zuzanna",
+        "lastname" : "Spaingebob",
+        "age" : 27,
+        "image" : "olivia.png"
+    },
+
+    {
+        "firstname" : "Tamara",
+        "lastname" : "Cooljacket",
+        "age" : 27,
+        "image" : "olivia.png"
     }
 ]
 }

@@ -1,27 +1,42 @@
 .member {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 90%;
-    max-width: 500px;
-    height: 100px;
+    max-width: 200px;
+    height: 150px;
     justify-content: space-around;
     align-items: center;
     border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
+    background-color: aliceblue;
+    box-shadow: 1px 0.1px pink, 2px 1px red, 3px 2px saddlebrown, 4px 3px gold, 5px 4px navajowhite, 6px 5px lightgreen, 7px 6px green, 8px 7px blue, 9px 8px violet;
+}
+
+body{
+    background-color: pink;
 }
 
 .names {
-    font-family: Arial, Helvetica, sans-serif;
-    color:darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
 }
 
 .age {
-    color:saddlebrown;
+    font-family: 'Courier New', Courier, monospace;
+    color: saddlebrown;
     font-weight: bold;
 }
 
 /* avatar image from pixabay.com */
 /* https://pixabay.com/da/service/license/ */
 .image {
-    width: 50px;
+    width: 100px;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 0.1px pink, 2px 1px red, 3px 2px saddlebrown,
+        4px 3px gold, 5px 4px navajowhite, 6px 5px lightgreen, 7px 6px green, 8px 7px blue, 9px 8px violet;
 }
