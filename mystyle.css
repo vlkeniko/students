@@ -14,6 +14,18 @@
     box-shadow: 1px 0.1px pink, 2px 1px red, 3px 2px saddlebrown, 4px 3px gold, 5px 4px navajowhite, 6px 5px lightgreen, 7px 6px green, 8px 7px blue, 9px 8px violet;
 }
 
+.member-output{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 body{
     background-color: pink;
 }
@@ -39,4 +51,6 @@ body{
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 1px 0.1px pink, 2px 1px red, 3px 2px saddlebrown,
         4px 3px gold, 5px 4px navajowhite, 6px 5px lightgreen, 7px 6px green, 8px 7px blue, 9px 8px violet;
+    text-align: center;
+    padding-bottom: 30px;
 }
