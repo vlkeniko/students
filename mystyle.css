@@ -1,6 +1,7 @@
 .member {
     display: flex;
-    width: 700px;
+    width: 90%;
+    max-width: 500px;
     height: 100px;
     justify-content: space-around;
     align-items: center;

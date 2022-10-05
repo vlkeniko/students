@@ -8,7 +8,7 @@ self.addEventListener("install", function (event) {
       return cache.addAll([
         "/students/",
         "/students/index.html",
-        "/students/morten.png/",
+        "/students/morten.png",
         "/students/nina.png",
         "/students/olivia.png",
       ]);
